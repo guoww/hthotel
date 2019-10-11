@@ -1,0 +1,137 @@
+body{
+  background-color: #edf2f7;
+  font-size: 32px;
+  color:#5d5d5d;
+}
+.wt_bg{
+  background-color: #fff;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  padding:40px 20px;
+  margin-top:100px;
+}
+.ht-name{
+
+  letter-spacing:3px;
+}
+.time-info{
+  display: flex;
+  flex-direction: row;
+  margin:30px 0;
+}
+.t-info-item{
+  width: 33%;
+  font-size: 22px;
+}
+.t-info-item>.label{
+  color:#b1b1b1;
+}
+.t-info-item>.txt{
+  color:#5d5d5d;
+}
+.roomInfo{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding:20px;
+}
+.rm-name{
+  height: 120px;
+  line-height: 120px;
+}
+.rm-prop-item{
+  height: 80px;
+  line-height: 80px;
+  color:#b1b1b1;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+}
+.prop-label{
+  width: 30%;
+}
+.prop-val{
+  text-align: right;
+  width: 70%;
+  float: right;
+}
+.prop-val>input{
+  float: right;
+  color:#b1b1b1;
+}
+.rm-num-choose{
+  margin-top: 13px;
+  float: right;
+  height: 50px;
+  width: 50px;
+  margin-left:10px;
+  font-size:24px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50px;
+}
+.rm-num-nomal{
+  color:#b1b1b1;
+  border:2px solid #b0b0b0;
+}
+.rm-num-active{
+  background-color: #78A4FA;
+  color: #fff;
+  border:2px solid #78A4FA;
+}
+.remark-info{
+  padding:40px 20px;
+  margin-bottom: 100px;
+}
+.tag-list{
+  text-align: center;
+}
+.tag-item {
+  display: inline-block;
+  line-height: 80px;
+  text-align: center;
+  width: 160px;
+  height: 80px;
+  border-radius: 10px;
+  font-size: 24px;
+  background-color: #f8f8f8;
+  margin-bottom: 20px;
+}
+.tag-item-active{
+  background-color: #78A4FA;
+  color: #fff;
+}
+.tag-item-mrg{
+  margin-left:20px
+}
+.rk-text{
+  height: 100px;
+  line-height: 100px;
+}
+.btn-bar{
+  position: fixed;
+  bottom:0;
+  left: 0;
+  right: 0;
+  background-color:#fff;
+  height: 100px;
+  line-height: 100px;
+  padding-left:40px;
+  border-top:2px solid #f8f8f8;
+}
+.btm-price{
+  width: 75%;
+  color: #FF4949;
+  font-size: 28px;
+  display: inline-block;
+}
+.sub-btn{
+  display: inline-block;
+  width: 25%;
+  background-color:#78A4FA;
+  color:#fff;
+  font-size:28px;
+  text-align: center;
+}

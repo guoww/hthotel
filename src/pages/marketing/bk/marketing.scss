@@ -1,0 +1,194 @@
+body{
+  background-color: #f7f7f7;
+  font-size:32px;
+}
+.tjf-item{
+  margin:20px 0;
+  padding:40px 20px 20px 20px;
+  background-color: #fff;
+  position: relative;
+  font-size: 24px;
+}
+.item_row{
+  border-top:2px solid #f7f7f7;
+  padding-top: 20px;
+  height: 60px;
+  line-height: 60px;
+}
+.ht-name{
+  font-size:32px;
+}
+.od-status{
+  color: #FF4949;
+  font-size: 30px;
+}
+.order-row-right{
+  position: absolute;
+  right: 20px;
+}
+.op-btn{
+  font-size:30px!important;
+}
+.pt{
+  color:#cacaca;
+}
+.tj-info{
+  display: flex;
+  flex-direction: row;
+}
+.info-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.img-wrapper{
+  width: 270px;
+  height: 150px;
+  border-radius: 20px;
+}
+.img_view{
+  width: 240px;
+  height: 150px;
+  border-radius: 20px;
+}
+.room_name{
+  font-size: 28px;
+  height: 60px;
+  line-height: 60px;
+}
+.mrg_rgt{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.time_tip{
+  height: 60px;
+  line-height: 60px;
+  color:#a2a1a5;
+}
+.bs_price{
+  font-size: 20px;
+  color: #a2a1a5;
+  text-decoration: line-through;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+.qg_list{
+  display:flex;
+  flex-direction: column;
+  padding:20px;
+}
+.qg_item{
+  background-color: #fff;
+  padding: 20px;
+  display:flex;
+  flex-direction: column;
+}
+.it-header{
+  display:flex;
+  flex-direction: row;
+  height: 60px;
+  line-height: 60px;
+  font-size: 28px;
+  position: relative;
+}
+.qg_name{
+  color: #FF4949;
+}
+.qg_time_count{
+  position: absolute;
+  right: 0;
+  font-size: 24px;
+}
+.rmt_list{
+  display:flex;
+  flex-direction: column;
+}
+.rmt_item{
+  display:flex;
+  flex-direction: row;
+  position: relative;
+  border-bottom:2px solid #f7f7f7;
+  margin-top: 20px;
+}
+.iconfont-qg{
+  position: absolute;
+  right: 150px;
+  top: 50px;
+  z-index: 10;
+  ratottransform:rotate(-30deg);
+  -ms-transform:rotate(-30deg); 	/* IE 9 */
+  -moz-transform:rotate(-30deg); 	/* Firefox */
+  -webkit-transform:rotate(-30deg); /* Safari 和 Chrome */
+  -o-transform:rotate(-30deg); 	/* Opera */
+}
+.rtm_ele{
+  width: 33.3%;
+}
+.rmt_img{
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+}
+.rmt_img_container{
+}
+.rmt_info_wrapper{
+  padding: 5px;
+  font-size:24px;
+}
+.rmt_name{
+  height: 50px;
+  line-height: 50px;
+}
+.pric_wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: right;
+}
+.qg_currency{
+  color: #FF4949;
+  font-size: 28px;
+}
+.qg_pric{
+  color: #FF4949;
+  text-space: 2px;
+  margin:0 5px
+}
+.bs_pirc{
+  font-size: 18px;
+  color: #a2a1a5;
+}
+.bs_pric_v{
+  text-decoration: line-through;
+}
+.wd_50{
+  width: 50%;
+}
+.wd_20{
+  width: 20%;
+}
+.fx-col{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.qg_bk_btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+at-countdown__time-box{
+  font-size: 15px!important;
+}
+.iconfont-te{
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  font-size: 90px;
+  z-index: 10;
+  color: #FF4949;
+  ratottransform:rotate(-30deg);
+  -ms-transform:rotate(-30deg); 	/* IE 9 */
+  -moz-transform:rotate(-30deg); 	/* Firefox */
+  -webkit-transform:rotate(-30deg); /* Safari 和 Chrome */
+  -o-transform:rotate(-30deg); 	/* Opera */
+}

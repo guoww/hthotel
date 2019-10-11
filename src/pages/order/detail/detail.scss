@@ -1,0 +1,123 @@
+
+.ht_header{
+  width: 100%;
+  height: 450px;
+  background-image: url("../../images/ht_env/ht_qt.jpg");
+  background-size: 100% 100%;
+  padding:20px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.time_icom_clr{
+  color:#fe8e9e;
+}
+.ht_header>div{
+  color:#fff;
+  font-size: 1.06667rem;
+  font-family:'微软雅黑';
+}
+.chek_in_time{
+  background-color:#fff;
+  padding:30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  width: 90%;
+  height: 540px;
+  box-sizing: border-box;
+  margin: -120px auto 0 auto;
+  border:3px solid #f7f7f7;
+  box-shadow:inset 0px -5px 8px -10px rgba(81, 81,81,0.8);
+}
+.form-item{
+  height: 80px;
+  display:flex;
+  align-items: center;
+}
+.tlt-icon-size{
+  font-size:50px!important;
+}
+.form-item>text>block{
+  margin-right: 10px;
+  display: inline-block;
+}
+.form-item>text{
+  font-size:28px;
+  color:#a2a1a5;
+  display: inline-block;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.form-item>input[type="text"]{
+  border:4px solid #e5e5e5;
+  height: 75px;
+  border-radius: 8px;
+  font-size: 30px;
+  padding-left:10px;
+  //box-sizing: border-box;
+  color:#62606f;
+}
+.date_lf{
+  width: 55%;
+}
+.date_rt{
+  width:42%;
+  margin-left: 10px;
+}
+.date_wt100{
+  width: 100%
+}
+.btn-wrapper{
+  margin-top: 35px;
+}
+.primary-btn-add.at_button{
+  font-size:16px;
+  height: 50px;
+  line-height: 50px;
+}
+.tj-txt{
+  position: relative;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  font-size:32px;
+  color:#444;
+  width: 90%;
+  margin:0 auto;
+}
+.tj-wrapper{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin:0 auto;
+  margin-bottom: 26px;
+}
+.tj-item{
+  width:48%;
+  height: 190px;
+  position: relative;
+}
+.tj-tag{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 5px;
+  background-color: #FF4949;
+  color:#fff;
+  z-index: 10;
+  font-size: 23px;
+  width: 40%;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+.tj-mrg-left{
+  margin-left: 26px;
+}
+.tj-img{
+  height: 190px;
+  width: 98%;
+  border-radius: 5px;
+}
